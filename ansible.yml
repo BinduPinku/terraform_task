@@ -5,6 +5,6 @@
   tasks:
    - name: install docker
      apt:
-      package: docker.
+      package: docker.io
       state: latest
     
