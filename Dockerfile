@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER visuwesh
+MAINTAINER Bindu
 LABEL "Task"="AmazonProject"
 RUN apt-get -y update && apt-get -y upgrade
 RUN apt-get -y install default-jdk
